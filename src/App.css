@@ -1,0 +1,75 @@
+/* App.css */
+
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffe6e6;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.text {
+  font-size: 2rem;
+  color: #d6336c;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.yesButton {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.yesButton:hover {
+  background-color: #ff1493;
+  transform: scale(1.1);
+}
+
+.noButton {
+  background-color: #ffd1dc;
+  color: #d6336c;
+}
+
+.noButton:hover {
+  background-color: #ffb6c1;
+  transform: scale(1.1);
+} 
+
+
+/* index.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+} 
+
+.caption {
+  margin-bottom: 10px;
+}
